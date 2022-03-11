@@ -1,0 +1,169 @@
+
+body{
+    font: Arial Helvitica san-serif;
+}
+#container {
+    width: 1050px;
+    /* border: 40px, solid black; */
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0px;
+}
+#brand{
+    float: left;
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #8631B6;
+    text-decoration: none;
+}
+#searchbox{
+    float: right;
+    background: linear-gradient(#E2EBB1, #BFDE61);
+    background: -webkit-linear-gradient(#E2EBB1, #BFDE61);
+    background: -o-linear-gradient(#E2EBB1, #BFDE61);
+    background: -moz-linear-gradient(#E2EBB1, #BFDE61);
+    background: -ms-linear-gradient(#E2EBB1, #BFDE61);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: -80px;
+}
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #FDBF7D;
+    background: white url(images/SearchIcon.png) right center no-repeat;
+    border: 1px solid #E1D254;
+}
+.clear{
+    clear: both;
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+    background: #AF61DC;
+    font-size: 15px;
+}
+#menu{
+    height: 60px;
+    background: linear-gradient(#F5E97F,#D8C943);
+    background: -moz-linear-gradient(#F5E97F,#D8C943);
+    background: -webkit-linear-gradient(#F5E97F,#D8C943);
+    background: -o-linear-gradient(#F5E97F,#D8C943);
+    background: -ms-linear-gradient(#F5E97F,#D8C943);
+    padding: 3.5px 0px;
+}
+ul{
+list-style-type: none;
+}
+#menu ul li{
+    float: left;
+    padding: 0px 32px;
+    height: 25px;
+    border-right: 1px solid #5d12e7;
+}
+#menu ul li a{
+     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #5d12e7;
+    line-height: 28px;
+    -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    -webkit-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+#menu ul li:last-child{
+      border-right: none;
+}
+#menu ul li a:hover, #menu ul li a.Active{
+    font-size:18px;
+    color: #9B4580;
+    font-weight: bold;
+}
+
+#introduction{
+    background: linear-gradient(#E5F2BB, #B7E952);
+    background: -moz-linear-gradient(#E5F2BB, #B7E952);
+    background: -webkit-linear-gradient(#E5F2BB, #B7E952);
+    background: -o-linear-gradient(#E5F2BB, #B7E952);
+    background: -ms-linear-gradient(#E5F2BB, #B7E952);
+    padding: 30px 30px;
+    margin: 15px 0px;
+}
+#introduction h3{
+    font-size: 30px;
+    font-weight: normal;
+    color: #396109;
+}
+#introduction p{
+    color: #789450;
+    font-size: 18px;
+    text-align: justify;
+}
+.sidebar{
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    height: 550px;
+    width: 450px;
+    padding: 20px 20px;
+}
+.sidebar h3{
+    font-size: 25px;
+    color: purple;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 19.5px;
+    color: #5d12e7;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    font-size: 21.5px;
+    font-weight: bold;
+    color: #9B4580;
+    -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    -webkit-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease; 
+}
+#leftsidebar ul li{
+    /* padding-bottom: 10px;
+    padding-left: 10px; */
+    padding: 0px 0px 10px 10px;
+    list-style-image: url(images/Arrow.jpg);
+}
+#rightsidebar ul li{
+    padding: 10px 0px 10px 55px;
+    /* list-style-image: url(images/Tick.jpg); */
+  background: url(images/Tick.jpg) no-repeat left center;
+}
+#leftsidebar{
+    float: left;
+
+}
+#rightsidebar{
+    float: right;
+}
+.footer{
+    height: 50px;
+    background: linear-gradient(#8ac53c, #d280f2 );
+    /* background: -moz-linear-gradient(#F2E678, #D9CA45);
+    background: -o-linear-gradient(#F2E678, #D9CA45);
+    background: -ms-linear-gradient(#F2E678, #D9CA45);
+    background: -webkit-linear-gradient(#F2E678, #D9CA45); */
+    padding: 20px 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
